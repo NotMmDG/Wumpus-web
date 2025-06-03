@@ -1,0 +1,18 @@
+.wumpus-board {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  user-select: none;
+}
+.wumpus-board th, .wumpus-board td {
+  border: 1px solid #999;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  cursor: default;
+}
+.row-label {
+  font-weight: bold;
+  background-color: #eee;
+}
